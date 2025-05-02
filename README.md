@@ -39,3 +39,45 @@ This project focuses on ensuring safe and autonomous lunar landings by combining
 
 ## 🗂️ Project Structure
 
+Safe-Lunar-Landings/
+│
+├── data/ # OHRC imagery and labeled datasets
+├── detection/ # YOLOv8 training & inference code
+├── rl_agent/ # PPO model training and inference
+├── utils/ # Helper functions for preprocessing, plotting, etc.
+├── models/ # Saved models and weights
+├── results/ # Visual outputs and metrics
+├── main.py # Main pipeline script
+├── requirements.txt # Python dependencies
+└── README.md # This file
+
+
+---
+
+## 📊 Results
+
+- High-precision hazard detection using YOLOv8
+- PPO agent successfully learns to avoid craters and slopes
+- Significant improvement over random or heuristic-based landings
+
+_Visualization samples available in the `results/` folder._
+
+---
+
+## 📌 Future Work
+
+- Integrate real-time simulation environments (e.g., Gazebo, Unity)
+- Expand to 3D terrain models from Chandrayaan-3 or LRO
+- Include physics-aware dynamics for descent modeling
+
+---
+
+## 📜 Citation / Credits
+
+- ISRO: Chandrayaan-2 OHRC Dataset
+- Ultralytics YOLOv8
+- Stable-Baselines3 RL Library
+
+---
+
+

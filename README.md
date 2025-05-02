@@ -39,17 +39,7 @@ This project focuses on ensuring safe and autonomous lunar landings by combining
 
 ## 🗂️ Project Structure
 
-Safe-Lunar-Landings/
-│
-├── data/ # OHRC imagery and labeled datasets
-├── detection/ # YOLOv8 training & inference code
-├── rl_agent/ # PPO model training and inference
-├── utils/ # Helper functions for preprocessing, plotting, etc.
-├── models/ # Saved models and weights
-├── results/ # Visual outputs and metrics
-├── main.py # Main pipeline script
-├── requirements.txt # Python dependencies
-└── README.md # This file
+<pre><code>Safe-Lunar-Landings/ │ ├── data/ # OHRC imagery and labeled datasets ├── detection/ # YOLOv8 training & inference code ├── rl_agent/ # PPO model training and inference ├── utils/ # Helper functions for preprocessing, plotting, etc. ├── models/ # Saved models and weights ├── results/ # Visual outputs and metrics ├── main.py # Main pipeline script ├── requirements.txt # Python dependencies └── README.md # This file </code></pre>
 
 
 ---
